@@ -1,0 +1,55 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "private": true,
+  "hexo": {
+    "version": "5.4.2"
+  },
+  "scripts": {
+    "start": "hexo server",
+    "deploy": "hexo clean && hexo deploy",
+    "clean": "hexo clean",
+    "generate": "hexo generate",
+    "new": "hexo new",
+    "server": "hexo server",
+    "dev": "hexo clean && hexo generate && hexo server --draft",
+    "writer": "node writer-bot/writer.js"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^1.2.19",
+    "ai": "^4.3.16",
+    "bluebird": "^3.7.2",
+    "dayjs": "^1.11.13",
+    "fs": "^0.0.1-security",
+    "gitment": "0.0.3",
+    "hexo": "^5.0.0",
+    "hexo-abbrlink": "^2.2.1",
+    "hexo-blog-encrypt": "^3.1.6",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-filter-nofollow": "^2.0.2",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-json-content": "^4.2.3",
+    "hexo-generator-search": "^2.4.3",
+    "hexo-generator-sitemap": "^3.0.1",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-ejs": "^1.0.0",
+    "hexo-renderer-marked": "^4.0.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^2.0.0",
+    "hexo-tag-aplayer": "^3.0.4",
+    "hexo-wordcount": "^6.0.1",
+    "path": "^0.12.7",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.67"
+  },
+  "overrides": {
+    "stylus": "github:stylus/stylus#0.57.0"
+  },
+  "resolutions": {
+    "stylus": "github:stylus/stylus#0.57.0"
+  }
+}

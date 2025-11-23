@@ -1,0 +1,136 @@
+name: autocommit-robot
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TZ: Asia/Shanghai
+      GITHUB_TOKEN: ${{ secrets.ACCOUNT_TOKEN }}
+
+    steps:
+      - name: "Checkout code"
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.ACCOUNT_TOKEN }}
+          submodules: true
+
+      - name: "Set node"
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+
+      - name: Cache node modules
+        uses: actions/cache@v4
+        id: cache
+        with:
+          path: |
+            node_modules
+            ~/.yarn/cache
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
+
+      - name: "Install"
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn install --frozen-lockfile
+
+      - name: "Generate commit message"
+        id: commit-message
+        run: |
+          EMOJIS=(
+              "🤖" "💻" "⌨️" "🖥️" "🖲️" "🎮" "🕹️" "📱" "☎️" "⌚️" "⚡️" "💡" "🔌" "🔋"
+              "🎨" "🎭" "🎪" "🎠" "🎬" "📸" "🎥" "🎙️" "🎧" "🎹" "🎼" "🎵" "🎶" "🖼️"
+              "✨" "💫" "🌟" "⭐️" "✴️" "🔮" "🪄" "🎇" "🎆" "🌠" "🌌" "👾" "🛸" "🌍"
+              "🔧" "🔨" "⚒️" "🛠️" "⚙️" "🔩" "⛓️" "📐" "📏" "✂️" "🗜️" "📌" "🔍" "💎"
+              "🎯" "🎪" "🏆" "🏅" "🎖️" "🔝" "📈" "💯" "🎳" "🎲" "🎱" "🧩" "♟️" "🎰"
+              "🚀" "✈️" "🛩️" "🛰️" "🌈" "🌊" "💨" "🌪️" "⚡️" "🔥" "💥" "🎢" "🎡" "🎪"
+              "💡" "💭" "💫" "🧠" "🎉" "🎊" "🌟" "💪" "📚" "🔬" "🧪" "🧬" "🔭" "⚗️"
+              "👽" "🤖" "👾" "🛸" "🌌" "🌠" "🚀" "💫" "✨" "🔮" "🎆" "🎇" "⭐️" "🌟"
+              "🏗️" "🏢" "🏭" "🏛️" "🏘️" "🏰" "🗼" "🗽" "🗿" "🎪" "🌉" "🌇" "🌆" "🌃"
+              "📡" "📱" "📟" "📠" "🔌" "🔋" "💻" "🖥️" "⌨️" "🖱️" "🖨️" "🖲️" "📼" "💽"
+          )
+          RANDOM_EMOJI=${EMOJIS[$RANDOM % ${#EMOJIS[@]}]}
+
+          DATETIME=$(date '+%Y-%m-%d %H:%M:%S')
+
+          DESCRIPTIONS=(
+            "Generated new robot avatar with unique characteristics"
+            "Created an innovative robot design with special features"
+            "Daily robot collection updated with fresh perspective"
+            "Added a distinctive mechanical companion to the gallery"
+            "Synthesized a new artificial intelligence visualization"
+            "Crafted a one-of-a-kind robotic entity"
+            "Introduced a new member to our robot family"
+            "Enhanced the collection with a modern robot design"
+            "Automated art generation completed successfully"
+            "New digital persona has been materialized"
+            "Expanded robot archive with latest creation"
+            "Designed and implemented new robot variation"
+            "Revolutionary robot concept brought to life"
+            "Artificial entity visualization completed"
+            "Generated unique mechanical character design"
+            "Advanced robot prototype visualization added"
+            "Innovative machine learning visualization created"
+            "Artistic interpretation of AI consciousness"
+            "Robotic expression system newly generated"
+            "Cutting-edge robot design implementation"
+            "Futuristic mechanical entity materialized"
+            "Next-generation robot concept realized"
+            "Dynamic robot personality generated"
+            "Artificial being visualization completed"
+            "Breakthrough in robot avatar design"
+            "Revolutionary mechanical form created"
+            "Advanced AI visualization system output"
+            "Experimental robot design materialized"
+            "State-of-the-art robot rendering complete"
+            "Innovative mechanical life form designed"
+          )
+          RANDOM_DESC=${DESCRIPTIONS[$RANDOM % ${#DESCRIPTIONS[@]}]}
+
+          ACTIONS=("feat" "update" "create" "generate" "implement" "design" "craft" "develop")
+          RANDOM_ACTION=${ACTIONS[$RANDOM % ${#ACTIONS[@]}]}
+
+          SCOPES=("robot" "ai" "avatar" "design" "generator" "collection")
+          RANDOM_SCOPE=${SCOPES[$RANDOM % ${#SCOPES[@]}]}
+
+          MESSAGE="${RANDOM_EMOJI} ${RANDOM_ACTION}(${RANDOM_SCOPE}): ${RANDOM_DESC} [${DATETIME}]"
+          echo "message=${MESSAGE}" >> $GITHUB_OUTPUT
+
+      - name: "Run bash"
+        run: |
+          yarn writer
+
+      - name: Setup SSH Key
+        run: |
+          mkdir -p ~/.ssh/
+          echo "${{ secrets.HEXO_DEPLOY_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
+      - name: Setup Git Config
+        run: |
+          git config --global user.name "frt"
+          git config --global user.email "971124641@qq.com"
+      - name: Install Hexo
+        run: |
+          yarn global add hexo-cli
+          yarn add hexo-deployer-git
+      - name: Deploy Hexo
+        run: |
+          hexo g -d -m "${{ steps.commit-message.outputs.message }}"
+
+      - name: "Commit and Push"
+        run: |
+          git config --global user.email "971124641@qq.com"
+          git config --global user.name "frt"
+          git add source/*
+          git commit -m "${{ steps.commit-message.outputs.message }}" || echo "No changes to commit"
+          git push origin HEAD:${GITHUB_REF#refs/heads/}
