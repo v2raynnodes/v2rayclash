@@ -30,7 +30,7 @@ sitemap:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://nodesfree.github.io/v2rayclash/
+url: https://v2raynnodes.github.io/v2rayclash/
 root: /
 permalink: posts/:abbrlink.html
 permalink_defaults:
