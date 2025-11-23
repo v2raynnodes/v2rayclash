@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@ai-sdk/google": "^1.2.19",
-    "ai": "^4.3.16",
+    "ai": "^5.0.100",
     "bluebird": "^3.7.2",
     "dayjs": "^1.11.13",
     "fs": "^0.0.1-security",
