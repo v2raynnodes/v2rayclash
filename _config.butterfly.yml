@@ -978,10 +978,10 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https:/github.com/v2raynnodes/v2raynnodes.github.io/v2rayclash/
 
 # Related Articles
 related_post:
