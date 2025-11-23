@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "config:recommended"
+  ],
+  "automerge": true,
+  "automergeType": "branch",
+  "pruneBranchAfterAutomerge": true
+}

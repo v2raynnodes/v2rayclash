@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "upstream"]
+	url = git@github.com:jerryc127/hexo-theme-butterfly.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "dev"]
+	remote = upstream
+	merge = refs/heads/dev
+[remote "hexo-theme-butterfly"]
+	url = git@github.com:ccknbc-actions/blog-butterfly.git
+	fetch = +refs/heads/*:refs/remotes/hexo-theme-butterfly/*

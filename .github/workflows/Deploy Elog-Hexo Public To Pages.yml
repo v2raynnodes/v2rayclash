@@ -1,0 +1,123 @@
+name: Deploy Elog-Hexo Public To Pages
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  push:
+    branches: master
+
+jobs:
+  deploy:
+    name: Deploy Elog-Hexo Public To Pages
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+      YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+      YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
+      YUQUE_USERNAME: ${{ secrets.YUQUE_USERNAME }}
+      YUQUE_PWD: ${{ secrets.YUQUE_PWD }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+      FLOWUS_TABLE_PAGE_ID: ${{ secrets.FLOWUS_TABLE_PAGE_ID }}
+      webpushrKey: ${{ secrets.WEBPUSHR_KEY }}
+      webpushrAuthToken: ${{ secrets.WEBPUSHR_AUTH_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+        with:
+          ref: master
+          fetch-depth: 0
+          submodules: false
+
+      - name: Setup Node
+        uses: actions/setup-node@main
+        id: setup-node
+        with:
+          node-version: "latest"
+          check-latest: true
+          cache: "npm"
+
+      - name: Catch Dependencies
+        uses: actions/cache@main
+        id: cache-dependencies
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+      - name: Install Dependencies
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
+        run: |
+          npm i
+
+      - name: Download Elog Posts
+        uses: dawidd6/action-download-artifact@v11
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: master
+          name: 'Elog Posts'
+          path: 'source/_posts'
+          if_no_artifact_found: warn
+
+      - name: Download Elog Cache
+        uses: dawidd6/action-download-artifact@v11
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          branch: master
+          name: 'Elog Cache'
+          path: 'elog'
+          if_no_artifact_found: warn
+
+      - name: Generate
+        run: |
+          npm run elog
+
+      - name: Upload Elog Cache
+        uses: actions/upload-artifact@v5
+        with:
+          name: 'Elog Cache'
+          path: elog
+          retention-days: 90
+
+      - name: Upload Elog Posts
+        uses: actions/upload-artifact@v5
+        with:
+          name: 'Elog Posts'
+          path: 'source/_posts'
+          retention-days: 90
+
+      - name: Deploy Markdown Posts To Branch Posts
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: posts
+          folder: ./source/_posts/
+          force: false
+          git-config-name: "github-actions[bot]"
+          git-config-email: "github-actions[bot]@users.noreply.github.com"
+          commit-message: ${{ github.event.head_commit.message }}
+
+      - name: Deploy Hexo Public To Pages
+        run: |
+          cd ./public
+          git config --global init.defaultBranch master
+          git config --global http.postBuffer 524288000
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git init
+          git add -A
+          git branch -m master
+          git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By GitHub Actions"
+          git push --force --quiet "https://ccknbc:${{ secrets.GH_TOKEN }}@github.com/CCKNBC/ccknbc.github.io.git" master:master
+          git push --force --quiet "https://ccknbc:${{ secrets.BB_TOKEN }}@bitbucket.org/ccknbc/ccknbc.bitbucket.io.git" master:master
+          git push --force --quiet "https://${{ secrets.CD_USER }}:${{ secrets.CD_TOKEN }}@e.coding.net/ccknbc/blog/butterfly.git" master:master
+
+      - name: Update GitLab Pages
+        run: |
+          curl -X POST --fail -F token=${{ secrets.GITLAB_TRIGGER_TOKEN }} -F ref=master https://gitlab.com/api/v4/projects/20691160/trigger/pipeline
+
+      - name: Delete Workflow Runs
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 90
+          keep_minimum_runs: 6
