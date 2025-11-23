@@ -15,9 +15,20 @@ if (config.enable) {
     // 排序获得最新文章信息，并写入本地文件
     hexo.on('generateAfter', async () => {
         const posts = hexo.locals.get('posts').data;
+
+        // 【修复部分】如果没有文章，直接跳过，防止报错
+        if (!posts || posts.length === 0) {
+            hexo.log.info('Webpushr: 暂无文章，跳过 newPost.json 生成');
+            return;
+        }
+
         const sortBy = config.sort === 'date' ? 'date' : 'updated';
         const updatedSortedPosts = posts.sort((a, b) => b[sortBy] - a[sortBy]);
         const newPost = updatedSortedPosts[0];
+
+        // 【修复部分】再次确认是否获取到了文章对象
+        if (!newPost) return;
+
         if (sortBy === 'date') newPost.updated = newPost.date;
 
         const JSONFeed = createJSONFeed(newPost);
@@ -68,6 +79,7 @@ if (config.enable) {
 }
 
 function createJSONFeed(newPost) {
+    // 这里 newPost 不会再是 undefined 了
     return {
         title: newPost.title,
         updated: newPost.updated.format(),
