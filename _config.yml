@@ -229,8 +229,8 @@ nofollow:
   enable: true
   field: site
   exclude:
-    - "ccknbc.cc"
-    - "www.ccknbc.cc"
+    - "v2raynnodes.github.io/v2rayclash/"
+    - ""
 
 mmedia:
   audio:
