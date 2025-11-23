@@ -6,7 +6,7 @@ author: CC康纳百川
 language: zh-CN
 timezone: Asia/Shanghai
 
-url: https://blog.ccknbc.cc/
+url: https://v2raynnodes.github.io/v2rayclash/
 permalink: posts/:translate_title/
 permalink_defaults:
 pretty_urls:
