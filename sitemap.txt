@@ -1,4 +1,5 @@
 https://v2raynnodes.github.io/v2rayclash/manifest.json
+https://v2raynnodes.github.io/v2rayclash/posts/undefined/
 https://v2raynnodes.github.io/v2rayclash/moments/
 https://v2raynnodes.github.io/v2rayclash/privacy-policy/
 https://v2raynnodes.github.io/v2rayclash/posts/undefined/
