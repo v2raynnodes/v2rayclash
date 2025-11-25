@@ -1,6 +1,6 @@
 ---
-title: 订阅部落格文章更新
-description: CC的部落格 订阅文章更新页面
+title: 订阅v2rayclash公益免费节点文章更新
+description: 一个纯公益免费节点分享网站，提供免费节点订阅链接，服务覆盖SSR/V2ray//Vmess/Clash等主流协议，支持Trojan/v2ray/Clash/
 aside: false
 top_img: false
 translate_title: subscribe-to-blog-article-updates
