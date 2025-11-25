@@ -61,13 +61,14 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
+  fa-brands fa-telegram: https://t.me/clashjd || Telegram
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
-  fa-brands fa-github: https://github.com/v2raynnodes/v2rayclash/ || GitHub
-  fa-solid fa-envelope: mailto:status@ccknbc.cc?contenttype=text/html&subject=CC的状态监控故障反馈&body=请告知CC服务异常详情&inquiry=yes || Email
-  fa-brands fa-bilibili: https://space.bilibili.com/1404413254 || BiliBili
-  fa-brands fa-weibo: https://weibo.com/CommonCulture || Weibo
-  fa-brands fa-telegram: https://t.me/ccknbc_bot || Telegram
+  fa-brands fa-github: https://v2raynnodes.github.io/v2rayclash/ || GitHub
+ # fa-solid fa-envelope: mailto:status@ccknbc.cc?contenttype=text/html&subject=CC的状态监控故障反馈&body=请告知CC服务异常详情&inquiry=yes || Email
+  fa-brands fa-bilibili: https://space.bilibili.com/ || BiliBili
+  fa-brands fa-weibo: https://weibo.com/ || Weibo
+  fa-brands fa-telegram: https://t.me/clashjd || Telegram
 # --------------------------------------
 # Image Settings
 # --------------------------------------
