@@ -27,7 +27,7 @@ menu:
  # 社交 || fa-solid fa-cubes:
   #  友链: /blogroll/ || fa-solid fa-link
    # 友圈: /moments/ || fa-solid fa-blog
-    音乐: /music/ || fa-solid fa-music
+ #   音乐: /music/ || fa-solid fa-music
  #   短文: /essay/ || fa-solid fa-comment-alt
   关于 || fa-solid fa-desktop:
     订阅: /sub/ || fa-solid fa-bell
@@ -68,7 +68,7 @@ social:
  # fa-solid fa-envelope: mailto:status@ccknbc.cc?contenttype=text/html&subject=CC的状态监控故障反馈&body=请告知CC服务异常详情&inquiry=yes || Email
   fa-brands fa-bilibili: https://space.bilibili.com/ || BiliBili
   fa-brands fa-weibo: https://weibo.com/ || Weibo
-  fa-brands fa-telegram: https://t.me/clashjd || Telegram
+ # fa-brands fa-telegram: https://t.me/clashjd || Telegram
 # --------------------------------------
 # Image Settings
 # --------------------------------------
