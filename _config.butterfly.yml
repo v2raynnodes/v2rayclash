@@ -24,11 +24,11 @@ menu:
     归档: /archives/ || fa-solid fa-box-archive
     标签: /tags/ || fa-solid fa-tags
     分类: /categories/ || fa-solid fa-folder-open
-  社交 || fa-solid fa-cubes:
-    友链: /blogroll/ || fa-solid fa-link
-    友圈: /moments/ || fa-solid fa-blog
+ # 社交 || fa-solid fa-cubes:
+  #  友链: /blogroll/ || fa-solid fa-link
+   # 友圈: /moments/ || fa-solid fa-blog
     音乐: /music/ || fa-solid fa-music
-    短文: /essay/ || fa-solid fa-comment-alt
+ #   短文: /essay/ || fa-solid fa-comment-alt
   关于 || fa-solid fa-desktop:
     订阅: /sub/ || fa-solid fa-bell
     本站: /about/ || fa-solid fa-list-check
@@ -303,7 +303,7 @@ footer:
   live: #页脚运行时间
     enable: true
     prefix: "本站已运行"
-    suffix: "CCKNBC All Rights Reserved."
+    suffix: "v2rayclash All Rights Reserved."
     start: "2020-06-04T00:00:00"
 
 
@@ -329,7 +329,7 @@ aside:
       enable: true
       icon: fa-solid fa-bell faa-ring animated
       text: 多种订阅更新方式
-      link: /sub/
+      link: /v2rayclash/sub/
   card_announcement:
     enable: true
     content: '如果访问存在问题，请 <b>Ctrl + Shift + R</b> 强制刷新页面，如果可以的话<a href="https://wmimg.com/i/41/2023/08/64cf770f0a003.png" alt="手动注销本站 Service Worker" title="手动注销本站 Service Worker">手动注销本站 Service Worker</a> 应该可以解决大部分问题'
