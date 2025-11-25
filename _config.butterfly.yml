@@ -30,10 +30,10 @@ menu:
  #   音乐: /music/ || fa-solid fa-music
  #   短文: /essay/ || fa-solid fa-comment-alt
   关于 || fa-solid fa-desktop:
-    订阅: /sub/ || fa-solid fa-bell
+ #   订阅: /sub/ || fa-solid fa-bell
     本站: /about/ || fa-solid fa-list-check
     隐私: /privacy-policy/ || fa-solid fa-user-secret
-    状态: https://cc.instatus.com || fa-solid fa-server
+#    状态: https://cc.instatus.com || fa-solid fa-server
     # 遗嘱: /will/ || fa-solid fa-solid fa-file-pen
     # 自己: /me/ || far fa-user
     # 证书: https://ssl.ccknbc.cc || fa-brands fa-expeditedssl
