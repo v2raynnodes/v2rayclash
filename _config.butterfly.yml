@@ -232,11 +232,11 @@ reward:
   enable: true
   text: 赞赏
   QR_code:
-    - img: https://cdn.jsdmirror.com/gh/ccknbc-backup/cdn/logo/qr.png
-      link: https://www.rocschool.com/tool/qr/qr/id/51.html
+    - img: https://cdn.jsdmirror.com/gh/ccknbc-backup/cdn/logo/1.png
+      link: https://www.rocschool.com/tool/qr/qr/id/1.html
       text: 三合一
-    - img: https://cdn.jsdmirror.com/gh/ccknbc-backup/cdn/logo/afdian.png
-      link: https://ifdian.net/@ccknbc
+    - img: https://cdn.jsdmirror.com/gh/ccknbc-backup/cdn/logo/1.png
+      link: https://ifdian.net/1
       text: 爱发电
 
 # Post edit
