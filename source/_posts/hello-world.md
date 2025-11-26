@@ -1,6 +1,7 @@
 ---
 title: Hello World
 date: 2024-05-24
+abbrlink: 202511aa
 updated: 2024-07-01
 tags: 随笔
 categories: 随笔
