@@ -304,7 +304,7 @@ aside:
       link: https://v2raynnodes.github.io/v2rayclash/
   card_announcement:
     enable: true
-    content: this is my blog , i write about shit.
+    content: 最新公益免费v2ray|clash节点订阅地址、免费节点每日更新
   card_recent_post:
     enable: true
     # If set 0 will show all
