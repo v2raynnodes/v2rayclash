@@ -6,6 +6,11 @@ author: v2rayclash 免费节点
 language: zh-CN
 timezone: Asia/Shanghai
 
+# abbrlink config
+abbrlink:
+  alg: crc32      #support crc16(default) and crc32
+  rep: hex        #support dec(default) and hex
+
 url: https://v2raynnodes.github.io/v2rayclash/
 permalink: posts/:translate_title/
 permalink_defaults:
