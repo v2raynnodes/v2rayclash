@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/link/index.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/tags/index.html</loc>
     
     <lastmod>2025-11-28</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/tags/index.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/link/index.html</loc>
     
     <lastmod>2025-11-28</lastmod>
     
@@ -38,25 +38,7 @@
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251124a.html</loc>
-    
-    <lastmod>2025-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251126a.html</loc>
-    
-    <lastmod>2025-11-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251128a.html</loc>
     
     <lastmod>2025-11-28</lastmod>
     
@@ -74,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/about/index.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251128a.html</loc>
     
     <lastmod>2025-11-28</lastmod>
     
@@ -84,6 +66,24 @@
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/categories/index.html</loc>
+    
+    <lastmod>2025-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/about/index.html</loc>
+    
+    <lastmod>2025-11-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251124a.html</loc>
     
     <lastmod>2025-11-28</lastmod>
     
