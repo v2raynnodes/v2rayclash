@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/tags/index.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/link/index.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,25 +22,7 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tools/index.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/tags/index.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/categories/index.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,16 +31,16 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/about/index.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/c810fa06.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/categories/index.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -58,25 +49,7 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/81a62f05.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/fe49e3b.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/46524b38.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -85,79 +58,7 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/bbf81975.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251203a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/d324da19.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251206a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251207a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251204a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251208a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251209a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251205a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,34 +67,97 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/35baa84b.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/4c7f0651.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/d324da19.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/c23db76f.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/18e6c86a.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251203a.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/fe49e3b.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251205a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251206a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251204a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251207a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251209a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/5d666b27.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251208a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -202,25 +166,16 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/df12ac57.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/96a47954.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/c23db76f.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/acfa4f24.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -229,52 +184,7 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/51501d69.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251202a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/12cb8503.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/9c89343d.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/d53fe13e.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/5b7d5000.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -283,16 +193,97 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/22b8fe1a.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251124a.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/acfa4f24.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/18e6c86a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/12cb8503.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251202a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/96a47954.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/d53fe13e.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/46524b38.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/5b7d5000.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/9c89343d.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/c810fa06.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -301,70 +292,16 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251125a.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251127a.html</loc>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251124a.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251128a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251130a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251129a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/8b8b626c.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/5c9d352.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251230a.html</loc>
-    
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -373,7 +310,79 @@
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251126a.html</loc>
     
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251128a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251129a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251130a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251230a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/8b8b626c.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/4c7f0651.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/20251127a.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://v2raynnodes.github.io/v2rayclash/posts/5c9d352.html</loc>
+    
+    <lastmod>2025-12-31</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -382,7 +391,7 @@
 
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -390,119 +399,119 @@
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/ssr/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/vpn/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/trojan/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/v2ray/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/vmess/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/ss/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/fanqiang/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/v2rayfree/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/clash/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/clash%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/mihomo/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/v2ray%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/%E8%AE%A2%E9%98%85%E9%93%BE/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/clashfree/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -511,21 +520,21 @@
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/categories/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/categories/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://v2raynnodes.github.io/v2rayclash/categories/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/%E8%AE%A2%E9%98%85%E5%9C%B0%E5%9D%80/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2025-12-30</lastmod>
+    <lastmod>2025-12-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
